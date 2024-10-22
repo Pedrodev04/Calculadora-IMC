@@ -1,0 +1,80 @@
+
+body {
+    font-family: poppins, sans-serif;
+    text-align: center;
+    background-image: url(Design\ sem\ nome\ \(13\).png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.container {
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 45px;
+}
+h1 span{
+    color: goldenrod;
+}
+.imc {
+    width: 400px;
+    margin-right: 40px;
+}
+.imc p{
+    color: white;
+    text-align: left;
+}
+p span{
+    background-color: goldenrod;
+    color: black;
+}
+form{
+    border: 1px solid white;
+    padding: 30px 80px;
+    border-radius: 15px;
+}
+label, input, button {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 45px;
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+@media screen and (max-width:1100px){
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    form{
+        padding: 30px 50px;
+        border: none;
+        margin-right: 40px;
+    }
+    .imc {
+        margin-right: none;
+    }
+    .imc p{
+        text-align: center;
+    }
+    
+}
