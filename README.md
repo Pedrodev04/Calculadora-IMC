@@ -1,8 +1,8 @@
 # Calculadora-IMC
- calduladora de imc.
+Calculadora de imc.
 
 
-Projeto simples para ajudar pessoas a verificarem como anda uma parte de sua saúde.
+Projeto simples para ajudar pessoas a verificarem sua saúde.
 
 
 Tecnologias usadas:
